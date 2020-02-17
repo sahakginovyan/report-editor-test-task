@@ -54,10 +54,4 @@ const router = new Router({
   ]
 });
 
-// router.afterEach(() => {});
-
-// router.beforeEach((to, from, next) => {
-//
-// });
-
 export default router;

@@ -86,7 +86,6 @@ export default {
           Number(this.$route.params.page) &&
           Number(this.$route.params.page) <= Math.ceil(this.rows / this.parPage)
         ) {
-          console.log("this.rows", this.rows);
           this.currentPage = Number(this.$route.params.page);
         } else {
           this.currentPage = 1;
